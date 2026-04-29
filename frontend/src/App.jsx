@@ -3,7 +3,7 @@ import io from 'socket.io-client';
 import WorldChat from './Components/WorldChat';
 import PrivateChat from './Components/PrivateChat';
 
-const socket = io('http://localhost:5000');
+const socket = io('https://mern-real-time-chat-p3sj.onrender.com');
 
 function App() {
   const [username, setUsername] = useState('Op_' + Math.floor(Math.random() * 999));
